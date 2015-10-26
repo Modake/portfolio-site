@@ -1,0 +1,112 @@
+.container-fluid { 
+    background: url(img/concrete.png) repeat 0 0;
+    opacity: 0.9;
+    margin: 5%;
+    border-radius: 25px;
+}
+
+body {
+    background: url(img/dongzhimen.jpg) no-repeat center top;
+    height: 100%;
+    background-attachment: fixed;
+}
+#title, #subtitle {
+    font-family: 'Molengo', Georgia, Times, serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #1464ac;
+}
+h1 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 56px;
+    line-height: 80px;
+}
+ 
+h2 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+h3 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.nav {
+    text-align: center;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 2% 0 2%;
+    }
+
+#photo {
+    position: relative;
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;    
+}
+
+.portfolio-img {
+    max-width: 250px;
+    height: auto;
+    max-height: 250px;
+    padding: 5px;
+    margin: 10px;
+    background-color: darkgrey   
+}
+
+.lightbox {
+	display: none;
+    position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 90%;
+	margin-top: 5%;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+.post > h3 {
+    color: #1464ac;
+    font-weight: 600;
+}
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
